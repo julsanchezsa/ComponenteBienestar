@@ -10,7 +10,7 @@ app = FastAPI()
 app.title = "Componente Bienestar"
 
 app.add_middleware(ErrorHandler)
-app.include_router(publication_router)
+app.include_router(publication_router, prefix="/api/bienestar")
 
 Base.metadata.create_all(bind=engine)
 

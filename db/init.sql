@@ -1,0 +1,2 @@
+CREATE DATABASE componentebienestar;
+CREATE DATABASE uncampusconnect_tutorprofile_db;
